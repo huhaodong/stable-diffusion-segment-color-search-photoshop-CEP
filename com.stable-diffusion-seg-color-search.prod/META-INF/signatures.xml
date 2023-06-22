@@ -1,0 +1,42 @@
+<signatures>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Manifest" URI="#PackageContents">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>wZb9DQ8OW38QIMjw1gHr1AQ5e91fOVmsvkxDYAlr7ZY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue Id="PackageSignatureValue">ewTUEIE8wONPAdNf2I8r9XXsL7r5rCgzs8XEU21DN44xLyOZvs+XpDjcBVzPWai3
+nc9gB4qyYG4WtEW0YTsppLXGHPeOqA67h1Nt/LsU4PJZVjnTx7+XFvbuP4/6xX4e
+53bxzmXAoNgWMcXxKnur2X69y7MFjuPd40mMWpLnfBw=</SignatureValue>
+
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIChTCCAe4CCQCU+jHRnbhmFTANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMC
+Q04xCzAJBgNVBAgMAkJKMRAwDgYDVQQHDAdvcmdVbml0MQwwCgYDVQQKDANvcmcx
+ETAPBgNVBAsMCGxvY2FsaXR5MRIwEAYDVQQDDAl4aWFvdHVkb3UxIzAhBgkqhkiG
+9w0BCQEWFHhpYW90dWRvdV9oekAxNjMuY29tMB4XDTIzMDYyMjA3NTc1NVoXDTM0
+MDkwODA3NTc1NVowgYYxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJCSjEQMA4GA1UE
+BwwHb3JnVW5pdDEMMAoGA1UECgwDb3JnMREwDwYDVQQLDAhsb2NhbGl0eTESMBAG
+A1UEAwwJeGlhb3R1ZG91MSMwIQYJKoZIhvcNAQkBFhR4aWFvdHVkb3VfaHpAMTYz
+LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAz3FoKpJS/Snx/awWhkXb
+0Xil4B8RZrBTYT/p6TaAA4R/akmxp+IfyFD8Taaw/C+EiMdq2u1kxr2qmEItmpzG
+4aEFk8HHfMSEvSBCjlZAvWtQXCP3LF/37ifXjreQF90ZhpxOQ5PG4kczUt9jyVIb
+1do2nO/firt4bvX2Nsa9yrsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBR8W/2PrYv
+/y/S+1Try+uuW7+C7v+WdbPmYpTIEUXkqz3bGii2Jl6xNFl7bESJVI6wS8d5qRHl
+ZlO6g3jvr3Jg/InLUTVzJyrBE2OxYermQNS5HSqBKq7zDIT6yQTChRMpWnfqOxP1
+mwqN5wO+G6nsUGQETBKxyrxtqcmXZ0HNwA==
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object>
+<Manifest Id="PackageContents">
+<Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>b07Onu9cTlGK1WpvgtFOlfk+Tl0HscuNIt6GZtesPX8=</DigestValue></Reference><Reference URI="client-dist/bundle.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>OnXT3934JzWRdsxqcxqF7GqSy3FkXwjGPk4oZ6ByKfQ=</DigestValue></Reference><Reference URI="client-dist/bundle.js.map"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ks+3BhbdSS75ewYv7wxPIvjYLBv3XGxYVesN4oEm7KQ=</DigestValue></Reference><Reference URI="client-dist/fonts/icons.woff2"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>lxCl4v48NQUeTsIQhmRLS1nEV7vVqKWsj8N3+CkJA3M=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-300.woff"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>OrMOeAyLC8xJmLg4pbMMO/4o7erTEpBtw8EicfrgaZo=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-300.woff2"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>7Kj/p2SmbNCEgA4uccQXbvCJ69gFUVZkpsuNT7O1mL8=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-400.woff"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>FXD4Zr9uroIEHkBygIlKhq0riydeAZCK4VaRTcaTpO0=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-400.woff2"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>PiU7ZgVlGaoGWwCkU7rDesXtjz5v57VC6TqdzcwR0Lw=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-500.woff"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>O/5GuxyjWyBTBsXsZk6Z5KgW9IpBe2tC53ofQ/C8Tno=</DigestValue></Reference><Reference URI="client-dist/fonts/roboto-latin-500.woff2"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>WowedoExjKop6fROim4nH2pAZ6JwPpkW39T+kJkkHbc=</DigestValue></Reference><Reference URI="client-dist/index.html"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>zMFD63a6DIaL8VAB6MpngDnmgolBiIM4rnN9dryxI90=</DigestValue></Reference><Reference URI="client-dist/main.css"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>1dhquXixvcvIJtAUNULeDgxeoZONYYawNeb/PDd0k/Q=</DigestValue></Reference><Reference URI="client-dist/main.css.map"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ujc9sK6Ha173yix8oUQvu4A9yhb+peuzkkwTaJC1NT0=</DigestValue></Reference><Reference URI="CSXS/manifest.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ISLNE2T7c9ImEct1I467pOY/hFFMNnRstcYq/p0OOFc=</DigestValue></Reference><Reference URI="host/index.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>EowLRjPMCUXNdT7i8lToBlk40Bykb0hPD56FQZwx6ts=</DigestValue></Reference><Reference URI="host/JSON.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>2OY5y/zfChZ2qkOV4le1QRfzV2HnjteT5aeWJoURd7g=</DigestValue></Reference><Reference URI="host/main.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>/u/eR1aoR4JS6092Z8HMMew2XdA4T3qhVuuUYg8xA7U=</DigestValue></Reference><Reference URI="icons/favicon.ico"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>AqMKyU5WjFmFXeelOPoE6/9seNzX07+2YxuPvCkdjBE=</DigestValue></Reference><Reference URI="index.html"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>3fcS4te3QPYgae3O3oZeLnX5PnQr6K+LKHo+w0FN6Zo=</DigestValue></Reference><Reference URI="libs/CSInterface.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>X4+OvP/GaACc9I3xMB+MliptVPbqEvCwRpxCyd5I90I=</DigestValue></Reference><Reference URI="session-dist/bundle.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>J8tgeHubFwRUc9DCrpOVs4DBhcfKgaXdaNNyP0KPOHA=</DigestValue></Reference><Reference URI="session-dist/bundle.js.map"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>RTZenq2N62RoDvYC66hZAvEHYEZGOUVC5cXmADk9a50=</DigestValue></Reference></Manifest>
+</Object>
+</Signature>
+</signatures>
