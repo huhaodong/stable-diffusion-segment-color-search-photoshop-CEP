@@ -11,4 +11,4 @@
 > 
 > Copy the `com.stable-diffusion-seg-color-search.prod` folder from the project to the `Required\CEP\extensions` folder under the Photoshop installation directory.
 
-![how to use](./assets/img/HowToUse.gif)
+![how to use](https://i.postimg.cc/dtnqmy7j/HowToUse.gif)
